@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 244, 244);
+}
+
+.wrapper {
+    width: 1140px;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.wrapper .wrapper__item {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.wrapper .wrapper__item:nth-child(1) {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+}
+
+.wrapper .wrapper__item:nth-child(1)>.top__btn {
+    padding: 5px 15px;
+    background: none;
+    color: #014E56;
+    border: 1px solid black;
+    border-radius: 41px;
+    font-size: 14px;
+}
+
+.wrapper .wrapper__item:nth-child(1) h1 {
+    font-size: 36px;
+    margin: 50px 0 30px;
+    line-height: 46px;
+}
+
+.wrapper .wrapper__item:nth-child(1) p {
+    line-height: 26px;
+}
+
+.wrapper .wrapper__item:nth-child(1) .bottom__btn {
+    width: 100%;
+    padding: 20px;
+    font-size: 19px;
+    border: none;
+    color: rgba(109, 98, 175, 0.796);
+    font-weight: bolder;
+    border-radius: 0px 0px 20px 20px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+input {
+    background:none ;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    outline: none;
+    color: white;
+}
+
+
+input:focus {
+    border-bottom: 2px solid white;
+}
+
+.bottom__ii {
+    width: 190px;
+    height: 50px;
+    color: #014E56;
+}
+
+
+body {
+    background-color: #014E56;
+}
+
+header {
+    padding: 25px;
+}
+
+header nav {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+header nav ul li button {
+    width: 153px;
+    height: 48px;
+    background: none;
+    border: 1px solid white;
+    border-radius: 19px;
+    color: white;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header ul {
+    list-style: none;
+}
+
+header nav ul li .dima2 {
+    font-size: 40px;
+}
+
+.wrapper .wrapper__item p {
+    color:white;
+    left: 165px;
+    top: 357px;
+    height: 48px;
+    max-width: 540px;
+}
+
+.text p {
+    color: rgb(244, 244, 244);
+}
+
+
+
+footer {
+    background-color: black;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid rgb(0, 0, 0);
+    width: 23%;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    vertical-align: middle;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 1200px;
+
+}
+
+.card__wrapper .card .c1 {
+    font-size: 40px;
+    color: white;
+}
+
+.card__wrapper .card .content {
+    color: white;
+    padding: 15px;
+}
+
+.card__wrapper .card .c2 {
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    text-align: right;
+}
